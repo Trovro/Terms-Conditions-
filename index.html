@@ -1,1 +1,463 @@
+<!DOCTYPE html>
+<!--
+  ============================================================================
+  TROVRO — TERMS AND CONDITIONS
+  ----------------------------------------------------------------------------
+  Operator: Om Kumbhar (sole proprietor, trading as "Trovro")
+  Grievance Officer: Om Kumbhar
+  Effective / last updated: 14 July 2026  (edit both if you launch later)
 
+  ONE FIELD LEFT TO FILL — it is legally mandatory:
+     [[YOUR ADDRESS — REQUIRED BY LAW, FILL THIS IN]]
+  The IT (Intermediary Guidelines) Rules, 2021 require an intermediary to publish
+  the Grievance Officer's contact address. Google Play also requires a physical
+  address on your developer account. Search this file for "fill" to find it.
+  ============================================================================
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terms &amp; Conditions — Trovro</title>
+<meta name="description" content="The agreement between you and Trovro governing use of the Trovro platform.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --gold:#E6C585; --gold-deep:#B8934A; --ink:#1C1A17; --ink-2:#26221B;
+    --cream:#FAF7F1; --border:#ECE6DA; --muted:#8A8172; --green:#2E9E6B;
+    --danger:#C0392B; --max:820px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Manrope',system-ui,-apple-system,sans-serif;
+    background:var(--cream); color:var(--ink);
+    line-height:1.72; font-size:16px; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 22px}
+
+  header{background:var(--ink);color:var(--cream);padding:44px 0 38px}
+  .brand{display:flex;align-items:center;gap:11px;margin-bottom:26px}
+  .mark{width:34px;height:34px;border-radius:10px;background:var(--gold);
+        display:grid;place-items:center;color:var(--ink);
+        font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:18px}
+  .brand span{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;
+              font-size:19px;letter-spacing:-.2px}
+  header h1{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;
+            font-size:clamp(30px,6vw,42px);line-height:1.15;letter-spacing:-.8px}
+  .dates{margin-top:14px;color:#B9B1A4;font-size:14px;font-weight:600}
+  .dates b{color:var(--gold);font-weight:700}
+
+  .summary{background:#fff;border:1px solid var(--border);border-radius:18px;
+           padding:24px 26px;margin:34px 0 6px}
+  .summary h2{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;
+              font-size:17px;margin-bottom:6px}
+  .summary p.lead{color:var(--muted);font-size:14px;font-weight:600;margin-bottom:16px}
+  .summary ul{list-style:none;display:grid;gap:11px}
+  .summary li{display:flex;gap:11px;align-items:flex-start;font-size:15px}
+  .tick{flex:0 0 auto;width:20px;height:20px;border-radius:50%;background:#E7F5EE;
+        color:var(--green);display:grid;place-items:center;font-size:12px;
+        font-weight:800;margin-top:2px}
+  .cross{background:#FBEBE9;color:var(--danger)}
+
+  nav.toc{margin:30px 0 10px;padding:22px 24px;background:#fff;
+          border:1px solid var(--border);border-radius:18px}
+  nav.toc h2{font-family:'Plus Jakarta Sans',sans-serif;font-size:12px;
+             letter-spacing:.9px;text-transform:uppercase;color:var(--gold-deep);
+             margin-bottom:13px}
+  nav.toc ol{list-style:none;counter-reset:toc;columns:2;column-gap:26px}
+  nav.toc li{counter-increment:toc;margin-bottom:7px;break-inside:avoid}
+  nav.toc a{color:var(--ink);text-decoration:none;font-size:14.5px;font-weight:600}
+  nav.toc a::before{content:counter(toc) ". ";color:var(--muted);font-weight:700}
+  nav.toc a:hover{color:var(--gold-deep);text-decoration:underline}
+  @media(max-width:620px){nav.toc ol{columns:1}}
+
+  main{padding:16px 0 40px}
+  section{padding-top:34px;scroll-margin-top:20px}
+  section h2{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;
+             font-size:22px;letter-spacing:-.3px;margin-bottom:12px;
+             padding-bottom:10px;border-bottom:2px solid var(--border)}
+  section h3{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;
+             font-size:16px;margin:22px 0 8px}
+  p{margin-bottom:14px}
+  ul.body,ol.body{margin:0 0 14px 20px}
+  ul.body li,ol.body li{margin-bottom:8px}
+  a{color:var(--gold-deep)}
+
+  table{width:100%;border-collapse:collapse;margin:6px 0 18px;font-size:14.5px}
+  th,td{text-align:left;padding:11px 13px;border:1px solid var(--border);vertical-align:top}
+  th{background:#F4EAD3;font-weight:700;font-size:13px;text-transform:uppercase;
+     letter-spacing:.4px;color:#8A6A22}
+  td{background:#fff}
+
+  .note{background:#fff;border-left:4px solid var(--gold);border-radius:0 12px 12px 0;
+        padding:15px 18px;margin:6px 0 18px;font-size:15px}
+  .warn{border-left-color:var(--danger);background:#FDF6F5}
+  .key{background:var(--ink);color:var(--cream);border-radius:14px;
+       padding:18px 20px;margin:6px 0 18px;font-size:15px;line-height:1.65}
+  .key strong{color:var(--gold)}
+  .fill{background:#FFF3BF;border-bottom:2px solid #E0B700;
+        padding:1px 5px;border-radius:3px;font-weight:700;color:var(--ink)}
+  .caps{font-size:14.5px;text-transform:uppercase;letter-spacing:.2px;font-weight:700}
+
+  footer{background:var(--ink);color:#B9B1A4;padding:38px 0;margin-top:20px;font-size:14.5px}
+  footer h2{font-family:'Plus Jakarta Sans',sans-serif;color:var(--cream);
+            font-weight:800;font-size:18px;margin-bottom:12px}
+  footer a{color:var(--gold);text-decoration:none;font-weight:600}
+  footer a:hover{text-decoration:underline}
+  .links{display:flex;gap:18px;flex-wrap:wrap;margin-top:14px}
+  .copyright{margin-top:24px;padding-top:18px;border-top:1px solid #3A352C;font-size:13px}
+
+  @media print{header,footer{background:#fff;color:#000}nav.toc{display:none}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="brand"><div class="mark">T</div><span>Trovro</span></div>
+    <h1>Terms &amp; Conditions</h1>
+    <p class="dates">Effective: 14 July 2026 &nbsp;·&nbsp; Last updated: 14 July 2026</p>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="summary">
+    <h2>The short version</h2>
+    <p class="lead">This summary is for convenience only. The full Terms below are what legally applies.</p>
+    <ul>
+      <li><span class="tick">✓</span><div><strong>Trovro is a noticeboard, not a service company.</strong> We introduce you to independent professionals. We do not employ them and we do not perform the work.</div></li>
+      <li><span class="tick">✓</span><div><strong>The contract for the job is between you and the other person</strong> — not with Trovro.</div></li>
+      <li><span class="tick">✓</span><div><strong>0% commission.</strong> You pay the professional directly in cash or by UPI. Trovro never touches your money.</div></li>
+      <li><span class="tick cross">✕</span><div><strong>“Verified” is not a guarantee.</strong> It means we checked an ID document. It is not a background check, a police check or a promise of quality.</div></li>
+      <li><span class="tick">✓</span><div>You must be <strong>18 or older</strong> and verify your email and mobile number.</div></li>
+      <li><span class="tick">✓</span><div>Problems? Contact our Grievance Officer. We reply in 24 hours and resolve within 15 days.</div></li>
+    </ul>
+  </div>
+
+  <nav class="toc">
+    <h2>Contents</h2>
+    <ol>
+      <li><a href="#t1">Acceptance of these Terms</a></li>
+      <li><a href="#t2">Eligibility</a></li>
+      <li><a href="#t3">Definitions</a></li>
+      <li><a href="#t4">What Trovro is — and is not</a></li>
+      <li><a href="#t5">Your account</a></li>
+      <li><a href="#t6">Verification and the “Verified” badge</a></li>
+      <li><a href="#t7">Bookings</a></li>
+      <li><a href="#t8">Prices and negotiation</a></li>
+      <li><a href="#t9">Payments — 0% commission</a></li>
+      <li><a href="#t10">Cancellations and no-shows</a></li>
+      <li><a href="#t11">Provider obligations</a></li>
+      <li><a href="#t12">Customer obligations</a></li>
+      <li><a href="#t13">Ratings and reviews</a></li>
+      <li><a href="#t14">Messaging</a></li>
+      <li><a href="#t15">Prohibited conduct</a></li>
+      <li><a href="#t16">Content and intellectual property</a></li>
+      <li><a href="#t17">Safety and your own due diligence</a></li>
+      <li><a href="#t18">Suspension and termination</a></li>
+      <li><a href="#t19">Disclaimers</a></li>
+      <li><a href="#t20">Limitation of liability</a></li>
+      <li><a href="#t21">Indemnity</a></li>
+      <li><a href="#t22">Third-party services</a></li>
+      <li><a href="#t23">Grievance redressal</a></li>
+      <li><a href="#t24">Governing law and disputes</a></li>
+      <li><a href="#t25">Force majeure</a></li>
+      <li><a href="#t26">Changes to these Terms</a></li>
+      <li><a href="#t27">General</a></li>
+      <li><a href="#t28">Contact us</a></li>
+    </ol>
+  </nav>
+
+  <main>
+
+  <section id="t1">
+    <h2>1. Acceptance of these Terms</h2>
+    <p><strong>1.1</strong> These Terms and Conditions (“<strong>Terms</strong>”) form a legally binding agreement between you (“<strong>you</strong>”, “<strong>your</strong>”, “<strong>User</strong>”) and Om Kumbhar, sole proprietor trading as “Trovro”, operator of the Trovro mobile application (“<strong>Trovro</strong>”, “<strong>we</strong>”, “<strong>us</strong>”, “<strong>our</strong>”), having its place of business at <span class="fill">[[YOUR ADDRESS — REQUIRED BY LAW, FILL THIS IN]]</span>, India.</p>
+    <p><strong>1.2</strong> These Terms constitute an electronic record under the Information Technology Act, 2000 and do not require a physical or digital signature.</p>
+    <p><strong>1.3</strong> By ticking “I agree to the Terms &amp; Privacy Policy”, creating an account, or using the Platform in any way, <strong>you accept these Terms and our <a href="privacy-policy.html">Privacy Policy</a>, which is incorporated by reference</strong>. If you do not agree, do not use the Platform.</p>
+  </section>
+
+  <section id="t2">
+    <h2>2. Eligibility</h2>
+    <p><strong>2.1</strong> You must be <strong>at least 18 years of age</strong> and competent to contract under the Indian Contract Act, 1872.</p>
+    <p><strong>2.2</strong> You must verify your <strong>email address</strong> and your <strong>mobile number by SMS OTP</strong> before you can use the Platform. Accounts that are not verified will not be granted access.</p>
+    <p><strong>2.3</strong> You must not be a person barred from receiving services under the laws of India, and you must not have been previously suspended or removed from the Platform.</p>
+    <p><strong>2.4</strong> Trovro currently operates only in selected areas of Mumbai, Maharashtra. Availability is not guaranteed in any particular area.</p>
+  </section>
+
+  <section id="t3">
+    <h2>3. Definitions</h2>
+    <ul class="body">
+      <li><strong>“Platform”</strong> — the Trovro mobile application and related services.</li>
+      <li><strong>“Customer”</strong> — a User who searches for and books Services.</li>
+      <li><strong>“Provider”</strong> — an independent service professional who lists and performs Services.</li>
+      <li><strong>“Services”</strong> — the work performed by a Provider for a Customer (for example electrical, plumbing, AC repair, carpentry, cleaning, salon-at-home, tutoring).</li>
+      <li><strong>“Booking”</strong> — a Customer’s request to a Provider, and the Provider’s acceptance of it.</li>
+    </ul>
+  </section>
+
+  <section id="t4">
+    <h2>4. What Trovro is — and is not</h2>
+    <div class="key">
+      <strong>Read this clause carefully. It defines the entire nature of our relationship with you.</strong><br><br>
+      Trovro is a <strong>technology platform and intermediary</strong>. We provide a venue where Customers and independent Providers can find each other, communicate, and agree terms. <strong>We do not provide the Services ourselves.</strong>
+    </div>
+    <p><strong>4.1 We are an intermediary.</strong> Trovro is an “intermediary” within the meaning of Section 2(1)(w) of the Information Technology Act, 2000. We host information provided by Users; we do not initiate transmissions, select receivers, or modify the information contained in them.</p>
+    <p><strong>4.2 The contract is between you and the other User.</strong> When a Booking is accepted, a direct contract for the Services is formed <strong>between the Customer and the Provider</strong>. <strong>Trovro is not a party to that contract.</strong> We do not guarantee that either party will perform it.</p>
+    <p><strong>4.3 Providers are independent.</strong> Providers are <strong>independent contractors</strong>. They are <strong>not</strong> our employees, agents, partners, workers or representatives. Nothing in these Terms creates a relationship of employment, agency, partnership or joint venture between Trovro and any Provider. Providers control their own schedule, pricing, tools and manner of work.</p>
+    <p><strong>4.4 We do not supervise the work.</strong> We do not direct, control, supervise, inspect or take responsibility for the Services, their quality, safety, legality, timeliness or outcome.</p>
+    <p><strong>4.5 We do not verify User statements.</strong> Except for the limited identity check described in Clause 6, we do not independently verify any information posted by Users, including skills, qualifications, licences, experience or prices.</p>
+  </section>
+
+  <section id="t5">
+    <h2>5. Your account</h2>
+    <p><strong>5.1</strong> You must provide true, accurate, current and complete information, and keep it updated.</p>
+    <p><strong>5.2</strong> One person may hold only <strong>one account</strong>. You may not create an account on behalf of anyone else, or impersonate any person or entity.</p>
+    <p><strong>5.3</strong> You are solely responsible for maintaining the confidentiality of your password and for <strong>all activity that occurs under your account</strong>. Notify us immediately at <a href="mailto:trovro01@gmail.com">trovro01@gmail.com</a> of any unauthorised use.</p>
+    <p><strong>5.4</strong> You may delete your account at any time from <strong>Settings → Delete account</strong>.</p>
+  </section>
+
+  <section id="t6">
+    <h2>6. Verification and the “Verified” badge</h2>
+    <p><strong>6.1</strong> A Provider may voluntarily submit a government-issued identity document. Our team reviews it, and if satisfied that the Provider is a real, identifiable person, awards a <strong>“Verified” badge</strong>. Review normally takes up to <strong>48 hours</strong>.</p>
+    <div class="note warn">
+      <strong>6.2 What “Verified” does NOT mean.</strong> The badge confirms only that an identity document was submitted and reviewed. It is <span class="caps">not</span> a police or criminal-record check, <span class="caps">not</span> a background or reference check, <span class="caps">not</span> a check of skills, licences, qualifications or insurance, and <span class="caps">not</span> a guarantee, endorsement or recommendation by Trovro of any Provider, or of the quality or safety of their work. <strong>You must still exercise your own judgement (see Clause 17).</strong>
+    </div>
+    <p><strong>6.3</strong> We may refuse, revoke or suspend a badge at any time, at our sole discretion, without giving reasons.</p>
+    <p><strong>6.4</strong> Submitting a forged, altered or another person’s document is a serious breach of these Terms and may be a criminal offence. We will terminate the account and may report the matter to the authorities.</p>
+    <p><strong>6.5</strong> A Provider whose application is pending may re-submit only after 48 hours.</p>
+  </section>
+
+  <section id="t7">
+    <h2>7. Bookings</h2>
+    <p><strong>7.1</strong> A Customer sends a Booking request specifying the Service, a proposed time, a service address and an offered price.</p>
+    <p><strong>7.2</strong> A Booking request is an <strong>offer</strong>, not a confirmed appointment. It becomes binding <strong>between the Customer and the Provider</strong> only when the Provider accepts it in the app.</p>
+    <p><strong>7.3</strong> A Provider may accept or decline any request, for any reason. Trovro does not guarantee that any request will be accepted, or that any Provider will be available.</p>
+    <p><strong>7.4</strong> A Provider marks a job “completed” once the work is done. A Customer may then rate the Provider. <strong>Rating is optional.</strong></p>
+  </section>
+
+  <section id="t8">
+    <h2>8. Prices and negotiation</h2>
+    <p><strong>8.1</strong> Prices shown on a Provider’s profile are that Provider’s own <strong>indicative starting price</strong>. They are set by the Provider, not by Trovro.</p>
+    <p><strong>8.2</strong> Trovro does <strong>not</strong> set, control, recommend or regulate prices. Customers name their own offer, and the parties are free to negotiate.</p>
+    <p><strong>8.3</strong> The final price is whatever the Customer and Provider agree. Any additional costs (materials, spare parts, travel) are a matter between them and must be agreed between them.</p>
+  </section>
+
+  <section id="t9">
+    <h2>9. Payments — 0% commission</h2>
+    <div class="key">
+      <strong>Trovro charges 0% commission and never handles your money.</strong><br><br>
+      All payments are made <strong>directly by the Customer to the Provider</strong>, in cash or by UPI. Trovro does not collect, receive, hold, route, escrow or process any funds, and is <strong>not a payment system, payment aggregator or payment gateway</strong>.
+    </div>
+    <p><strong>9.1</strong> A Provider may display a UPI ID or a UPI QR code so that a Customer can pay them directly. That payment happens entirely outside Trovro, through the Customer’s own banking or UPI application.</p>
+    <p><strong>9.2</strong> Because we never hold the money, <strong>we cannot issue refunds, reverse payments, or guarantee payment</strong>. Any dispute about payment — non-payment, underpayment, overcharging, or a refund — is a matter <strong>strictly between the Customer and the Provider</strong>.</p>
+    <p><strong>9.3 Taxes.</strong> Each Provider is solely responsible for their own tax obligations, including income tax and GST registration and payment where applicable. Trovro does not deduct, collect or remit tax on any Provider’s behalf and issues no invoice for the Services.</p>
+    <p><strong>9.4</strong> Use of the Platform is currently <strong>free</strong> for both Customers and Providers. We reserve the right to introduce fees in future, on prior notice.</p>
+  </section>
+
+  <section id="t10">
+    <h2>10. Cancellations and no-shows</h2>
+    <p><strong>10.1</strong> A Customer may cancel a Booking request in the app while it is still pending.</p>
+    <p><strong>10.2</strong> Once a Booking is accepted, cancellation is a matter between the Customer and the Provider. Please give as much notice as you reasonably can.</p>
+    <p><strong>10.3</strong> Trovro does not charge cancellation fees and does not mediate cancellation disputes. Repeated cancellations or no-shows may result in suspension under Clause 18.</p>
+  </section>
+
+  <section id="t11">
+    <h2>11. Provider obligations</h2>
+    <p>If you use Trovro as a Provider, you represent, warrant and undertake that:</p>
+    <ol class="body">
+      <li>you are legally entitled to perform the Services you list, and hold every <strong>licence, registration, permit, certification and insurance</strong> required by law for those Services;</li>
+      <li>you will perform the Services with <strong>reasonable skill, care and diligence</strong>, and in accordance with applicable law and safety standards;</li>
+      <li>all information on your profile — including your identity, skills, experience, categories, service areas and prices — is <strong>true and not misleading</strong>;</li>
+      <li>you will not sub-contract a job to another person without the Customer’s knowledge and consent;</li>
+      <li>you will comply with all applicable labour, tax and consumer-protection laws;</li>
+      <li>you are responsible for <strong>your own tools, materials, transport, insurance and taxes</strong>;</li>
+      <li>you will treat Customers, their homes and their property with respect and care; and</li>
+      <li><strong>you are solely liable for any loss, damage, injury or defect</strong> caused by you or your work.</li>
+    </ol>
+  </section>
+
+  <section id="t12">
+    <h2>12. Customer obligations</h2>
+    <p>If you use Trovro as a Customer, you represent, warrant and undertake that:</p>
+    <ol class="body">
+      <li>the service address you give is accurate and is a place you are entitled to have work carried out;</li>
+      <li>you will provide safe, reasonable access to the premises;</li>
+      <li>you will treat Providers with dignity and respect, and will not discriminate against any Provider on the basis of religion, caste, sex, place of birth, language, disability or any similar ground;</li>
+      <li>you will pay the Provider the agreed price, promptly, on completion; and</li>
+      <li>you will not request any work that is unlawful, unsafe, or outside the scope of the Booking.</li>
+    </ol>
+  </section>
+
+  <section id="t13">
+    <h2>13. Ratings and reviews</h2>
+    <p><strong>13.1</strong> A Customer may rate a completed job from 1 to 5 stars and leave an optional written review. Ratings are <strong>public</strong> and appear on the Provider’s profile alongside the reviewer’s first name and photo.</p>
+    <p><strong>13.2</strong> Reviews must be <strong>honest, based on a real transaction, and your own genuine experience</strong>.</p>
+    <p><strong>13.3</strong> You must not post fake, paid, incentivised, retaliatory or defamatory reviews; solicit or manipulate ratings; or include personal data, abuse, obscenity or advertising in a review.</p>
+    <p><strong>13.4</strong> We may remove any review that breaches these Terms, but <strong>we are under no obligation to monitor, verify or moderate reviews</strong> and we do not endorse them. Opinions in reviews are the User’s own, not ours.</p>
+  </section>
+
+  <section id="t14">
+    <h2>14. Messaging</h2>
+    <p><strong>14.1</strong> The Platform provides in-app messaging so that a Customer and a Provider can coordinate a job.</p>
+    <p><strong>14.2</strong> Messages are <strong>not end-to-end encrypted</strong>. They are stored on our servers and may be accessed by us where necessary to investigate a complaint, enforce these Terms, or comply with law.</p>
+    <p><strong>14.3</strong> Do not send abusive, obscene, threatening, harassing or unlawful messages, and do not use messaging to spam, solicit or advertise.</p>
+    <p><strong>14.4</strong> Never share your password, OTP, Aadhaar number, card details or UPI PIN with any other User. <strong>Trovro will never ask for them.</strong></p>
+  </section>
+
+  <section id="t15">
+    <h2>15. Prohibited conduct</h2>
+    <p>You must not, and must not permit anyone else to:</p>
+    <ol class="body">
+      <li>break any law, or use the Platform for any unlawful, fraudulent or harmful purpose;</li>
+      <li>impersonate any person, or misrepresent your identity, affiliation, skills or qualifications;</li>
+      <li>post or transmit anything that is defamatory, obscene, pornographic, paedophilic, invasive of another’s privacy, insulting or harassing on the basis of gender, racially or ethnically objectionable, encourages money laundering or gambling, or is otherwise unlawful — as set out in the <strong>Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021</strong>;</li>
+      <li>threaten the unity, integrity, defence, security or sovereignty of India, friendly relations with foreign States, or public order;</li>
+      <li>infringe any patent, trademark, copyright or other proprietary right;</li>
+      <li>upload any virus, malware or malicious code, or attempt to hack, reverse-engineer, decompile, scrape, or gain unauthorised access to the Platform or its data;</li>
+      <li>harvest or collect data about other Users;</li>
+      <li>harass, stalk, threaten, or endanger any other User;</li>
+      <li>circumvent or manipulate the ratings, verification or booking systems;</li>
+      <li>use the Platform to recruit for, or promote, a competing service; or</li>
+      <li>discriminate against any User on any ground prohibited by law.</li>
+    </ol>
+    <p>Breach of this clause may lead to immediate termination and, where appropriate, referral to law enforcement.</p>
+  </section>
+
+  <section id="t16">
+    <h2>16. Content and intellectual property</h2>
+    <p><strong>16.1 Our IP.</strong> The Trovro name, logo, design, software, text and all other content on the Platform are owned by us or our licensors and are protected by law. You may not copy, modify, distribute or create derivative works from them without our written permission.</p>
+    <p><strong>16.2 Your content.</strong> You retain ownership of the content you post (profile text, photos, reviews, messages). By posting it, you grant Trovro a <strong>non-exclusive, worldwide, royalty-free, transferable, sub-licensable licence</strong> to host, store, reproduce, display and distribute that content <strong>for the purpose of operating, promoting and improving the Platform</strong>. This licence ends when you delete the content or your account, except where the content has been shared with another User or must be retained by law.</p>
+    <p><strong>16.3</strong> You warrant that you own or have the right to post everything you post, and that it does not infringe anyone else’s rights.</p>
+    <p><strong>16.4 Takedown.</strong> If you believe content on the Platform infringes your rights, write to the Grievance Officer (Clause 23) with details. We will act in accordance with the Intermediary Guidelines, 2021.</p>
+  </section>
+
+  <section id="t17">
+    <h2>17. Safety and your own due diligence</h2>
+    <div class="note warn">
+      <strong>You are meeting strangers and letting them into your home, or entering someone else’s home.</strong> Trovro does not conduct criminal background checks. Please take normal precautions.
+    </div>
+    <ul class="body">
+      <li>Check a Provider’s ratings, reviews and profile before booking.</li>
+      <li>Ask to see licences or certificates for regulated work (electrical, gas, plumbing).</li>
+      <li>Agree the full price and scope <strong>before</strong> work begins.</li>
+      <li>Where possible, do not be alone with an unknown person; tell someone where you are.</li>
+      <li>Do not share passwords, OTPs, Aadhaar numbers or UPI PINs with anyone.</li>
+      <li>In an emergency, call the police (100) or the national emergency number (112). Report the User to us afterwards.</li>
+    </ul>
+  </section>
+
+  <section id="t18">
+    <h2>18. Suspension and termination</h2>
+    <p><strong>18.1</strong> We may suspend or terminate your account, remove your content, or restrict your access — <strong>immediately and without notice</strong> — if we reasonably believe you have breached these Terms or the law, or that your conduct harms other Users, third parties or Trovro.</p>
+    <p><strong>18.2</strong> You may terminate at any time by deleting your account.</p>
+    <p><strong>18.3</strong> Clauses 4, 9, 16, 19, 20, 21, 24 and 27 survive termination.</p>
+  </section>
+
+  <section id="t19">
+    <h2>19. Disclaimers</h2>
+    <p class="caps"><strong>19.1 The Platform is provided on an “as is” and “as available” basis, without warranties of any kind, whether express, implied or statutory, to the fullest extent permitted by law.</strong></p>
+    <p><strong>19.2</strong> We do not warrant that the Platform will be uninterrupted, timely, secure or error-free, that defects will be corrected, or that it is free of viruses.</p>
+    <p><strong>19.3</strong> We make <strong>no warranty or representation</strong> regarding: the identity, honesty, skill, competence, conduct, qualifications or reliability of any User; the quality, safety, legality or timeliness of any Service; the truth or accuracy of any listing, price, rating or review; or whether a Customer will pay or a Provider will turn up.</p>
+    <p><strong>19.4</strong> Any dispute about the Services, payment or conduct is <strong>solely between the Customer and the Provider</strong>. Trovro is not a party to it and has no obligation to mediate, arbitrate or resolve it — though we may, entirely at our discretion, try to assist.</p>
+  </section>
+
+  <section id="t20">
+    <h2>20. Limitation of liability</h2>
+    <p class="caps"><strong>20.1 To the maximum extent permitted by law, Trovro, its owners, directors, employees and agents shall not be liable for any indirect, incidental, special, consequential, punitive or exemplary damages, or for any loss of profit, revenue, business, goodwill, data or opportunity, arising out of or in connection with the Platform or any Service.</strong></p>
+    <p><strong>20.2</strong> Without limiting Clause 20.1, we are <strong>not liable</strong> for:</p>
+    <ul class="body">
+      <li>any act, omission, negligence, misconduct, delay, defect or fraud of any Customer or Provider;</li>
+      <li>any death, personal injury, illness, property damage, theft or loss arising from a Service or from any meeting between Users;</li>
+      <li>any failure to pay, non-payment, overcharging or payment dispute between Users;</li>
+      <li>any content posted by a User; or</li>
+      <li>any service interruption, data loss or failure caused by a third-party provider (including Google Firebase) or by your device or network.</li>
+    </ul>
+    <p><strong>20.3 Cap on liability.</strong> Where liability cannot lawfully be excluded, our total aggregate liability to you for all claims arising out of or relating to these Terms or the Platform shall not exceed <strong>₹1,000 (Rupees One Thousand only)</strong>. This cap reflects the fact that <strong>the Platform is provided to you free of charge and we earn no commission from any Booking</strong>.</p>
+    <p><strong>20.4</strong> Nothing in these Terms excludes or limits liability that cannot lawfully be excluded or limited.</p>
+  </section>
+
+  <section id="t21">
+    <h2>21. Indemnity</h2>
+    <p>You agree to <strong>indemnify, defend and hold harmless</strong> Trovro, Om Kumbhar, sole proprietor trading as “Trovro”, and its owners, directors, employees and agents from and against any claim, demand, action, proceeding, loss, liability, damage, cost or expense (including reasonable legal fees) arising out of or relating to: (a) your use of the Platform; (b) your breach of these Terms or of any law; (c) any Service you provide or receive; (d) any content you post; or (e) your violation of the rights of any third party.</p>
+  </section>
+
+  <section id="t22">
+    <h2>22. Third-party services</h2>
+    <p><strong>22.1</strong> The Platform relies on third-party services, including <strong>Google Firebase, Google Cloud, Google Sign-In and Google Play services</strong>. Your use of those services may also be governed by their own terms.</p>
+    <p><strong>22.2</strong> We are not responsible for the availability, accuracy, content or practices of any third-party service or linked website.</p>
+  </section>
+
+  <section id="t23">
+    <h2>23. Grievance redressal</h2>
+    <p>In compliance with Rule 3(2) of the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 and the Consumer Protection (E-Commerce) Rules, 2020:</p>
+    <div class="note">
+      <strong>Grievance Officer:</strong> Om Kumbhar<br>
+      <strong>Email:</strong> <a href="mailto:trovro01@gmail.com">trovro01@gmail.com</a><br>
+      <strong>Address:</strong> <span class="fill">[[YOUR ADDRESS — REQUIRED BY LAW, FILL THIS IN]]</span>, India<br>
+      <strong>Hours:</strong> Monday to Friday, 10:00 – 18:00 IST
+    </div>
+    <p>We will <strong>acknowledge every complaint within 24 hours</strong> and <strong>resolve it within 15 days</strong> of receipt. Complaints about content that is unlawful under Clause 15 will be acted upon expeditiously and in any event within the timelines prescribed by law.</p>
+    <p>You may also report a User directly in the app, or write to us at <a href="mailto:trovro01@gmail.com">trovro01@gmail.com</a>.</p>
+  </section>
+
+  <section id="t24">
+    <h2>24. Governing law and disputes</h2>
+    <p><strong>24.1</strong> These Terms are governed by and construed in accordance with the <strong>laws of India</strong>.</p>
+    <p><strong>24.2</strong> Subject to Clause 24.3, the courts at <strong>Mumbai, Maharashtra</strong> shall have exclusive jurisdiction over any dispute arising out of or in connection with these Terms.</p>
+    <p><strong>24.3 Arbitration.</strong> Any dispute that is not resolved amicably within 30 days of written notice shall be referred to <strong>arbitration by a sole arbitrator</strong> appointed by Trovro, under the <strong>Arbitration and Conciliation Act, 1996</strong>. The seat and venue of arbitration shall be <strong>Mumbai</strong>, the language shall be <strong>English</strong>, and the award shall be final and binding.</p>
+  </section>
+
+  <section id="t25">
+    <h2>25. Force majeure</h2>
+    <p>We are not liable for any failure or delay in performance caused by events beyond our reasonable control, including acts of God, flood, fire, earthquake, epidemic or pandemic, war, riot, terrorism, strike, government action, power failure, internet or telecommunications failure, or the failure of a third-party service provider.</p>
+  </section>
+
+  <section id="t26">
+    <h2>26. Changes to these Terms</h2>
+    <p>We may amend these Terms at any time. The “Last updated” date will change, and material changes will be notified in the app or by email. <strong>Continued use of the Platform after the changes take effect constitutes acceptance.</strong> If you do not accept the revised Terms, you must stop using the Platform and delete your account.</p>
+  </section>
+
+  <section id="t27">
+    <h2>27. General</h2>
+    <p><strong>27.1 Severability.</strong> If any provision is held invalid or unenforceable, it shall be severed and the remaining provisions shall continue in full force.</p>
+    <p><strong>27.2 Waiver.</strong> Our failure to enforce any right or provision is not a waiver of it.</p>
+    <p><strong>27.3 Assignment.</strong> You may not assign or transfer your rights under these Terms. We may assign ours, including on a merger, acquisition or sale of assets.</p>
+    <p><strong>27.4 Entire agreement.</strong> These Terms and the Privacy Policy constitute the entire agreement between you and us, and supersede all prior understandings.</p>
+    <p><strong>27.5 Notices.</strong> We may give you notice by email, in-app message or a notice on the Platform. You must give us notice by email to <a href="mailto:trovro01@gmail.com">trovro01@gmail.com</a>.</p>
+    <p><strong>27.6 Language.</strong> These Terms are drafted in English, which shall prevail over any translation.</p>
+  </section>
+
+  <section id="t28">
+    <h2>28. Contact us</h2>
+    <ul class="body">
+      <li>Email: <a href="mailto:trovro01@gmail.com">trovro01@gmail.com</a></li>
+      <li>Instagram: <a href="https://www.instagram.com/trovro.co/" target="_blank" rel="noopener">@trovro.co</a></li>
+      <li>Facebook: <a href="https://www.facebook.com/profile.php?id=61592060843883" target="_blank" rel="noopener">Trovro on Facebook</a></li>
+    </ul>
+  </section>
+
+  </main>
+</div>
+
+<footer>
+  <div class="wrap">
+    <h2>Trovro</h2>
+    <p>Local professionals, verified and near you. 0% commission — you pay the professional directly.</p>
+    <div class="links">
+      <a href="mailto:trovro01@gmail.com">trovro01@gmail.com</a>
+      <a href="https://www.instagram.com/trovro.co/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.facebook.com/profile.php?id=61592060843883" target="_blank" rel="noopener">Facebook</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+    </div>
+    <p class="copyright">© <span id="y">2026</span> Om Kumbhar, sole proprietor trading as “Trovro”. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
